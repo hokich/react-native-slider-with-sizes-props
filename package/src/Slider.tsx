@@ -186,6 +186,8 @@ type Props = ViewProps &
      * The number of elements must be the same as `maximumValue`.
      */
     accessibilityIncrements?: Array<string>;
+    trackHeight?: number;
+    thumbSize?: number
   }>;
 
 const SliderComponent = (
