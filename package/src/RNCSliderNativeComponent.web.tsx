@@ -231,7 +231,7 @@ const RCTSliderWebComponent = React.forwardRef(
       {
         width: thumbSize,
         height: thumbSize,
-        backgroundColor: thumbTintColor,
+        // backgroundColor: thumbTintColor,
         zIndex: 1,
         borderRadius: thumbSize / 2,
         overflow: 'hidden',
